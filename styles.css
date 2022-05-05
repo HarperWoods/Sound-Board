@@ -1,0 +1,96 @@
+/* Your Awesome Styling */
+
+@import url("https://fonts.googleapis.com/css2?family=Bokor&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
+
+h1 {
+  font-family: "Bokor", cursive;
+  color: #ffffff73;
+  text-align: center;
+  font-size: 400%;
+}
+
+h2 {
+  font-family: "Bokor", cursive;
+  color: #ffffff73;
+  text-align: center;
+  font-size: 300%;
+}
+
+span {
+  font-family: "Courier Prime", monospace;
+}
+
+body {
+  background-image: url(https://www.factinate.com/wp-content/uploads/2019/01/GettyImages-505808314-1024x638.jpg);
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+div {
+  background: #ffffff3b;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 5px;
+}
+
+kbd {
+  font-size: 300%;
+  font-family: "Bokor", cursive;
+}
+
+div.bells:hover {
+  color: orange;
+  font-size: 125%;
+  transition: 1s;
+  background-image: url(https://farm3.staticflickr.com/2501/4078889005_294d240b32_z_d.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: screen;
+}
+
+div.crows:hover {
+  color: orange;
+  font-size: 125%;
+  transition: 1s;
+  background-image: url(https://th.bing.com/th/id/OIP.6bgVWwtZGVZ_Fb2K-FS5twHaKt?pid=ImgDet&w=500&h=723&rs=1);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: screen;
+}
+
+div.heart:hover {
+  color: orange;
+  font-size: 125%;
+  transition: 1s;
+  background-image: url(https://th.bing.com/th/id/OIP.WVEBPqfPvL3H-e1XrcW8uAHaJQ?pid=ImgDet&w=720&h=900&rs=1);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: screen;
+}
+
+div.pendulum:hover {
+  color: orange;
+  font-size: 125%;
+  transition: 1s;
+  background-image: url(https://i.pinimg.com/originals/66/aa/7a/66aa7a9abca7a35b78475da5c982ecf5.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: screen;
+}
+
+div.darkness:hover {
+  color: orange;
+  font-size: 125%;
+  transition: 1s;
+  background-image: url(https://th.bing.com/th/id/R.c2d9ce2bbc2ea55d19c44b025004d061?rik=T2D9LZMj6HSFyg&riu=http%3a%2f%2fwww.jackeeholder.com%2fwp-content%2fuploads%2f2012%2f11%2fDarkness.jpg&ehk=q%2f6Jn9g58z3EumzV0MQqRy5XtNwGotWa6kPBFhjae54%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: screen;
+}

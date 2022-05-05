@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Soundboard Template</title>
+  <link rel="stylesheet" href="./styles.css">
+
+  <!-- Favicons --->
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+  <script defer src="./scripts.js"></script>
+
+</head>
+
+<body>
+ <h1> Experience The Classic Tales in 5 Sounds</h1>
+  <!-- Container for all the keys and sounds   -->
+  <main class="keys">
+
+    <!-- Individual Keys -->
+    <div data-key="69" class = "bells">
+      <kbd>E</kbd>
+      <span>Bells</span>
+    </div>
+
+    <div data-key="68" class = "crows">
+      <kbd>d</kbd>
+      <span>Crows</span>
+    </div>
+
+    <div data-key="71" class = "heart">
+      <kbd>g</kbd>
+      <span>Heartbeat</span>
+    </div>
+    
+    <div data-key="65" class = "pendulum"> 
+      <kbd>a</kbd>
+      <span>Pendulum</span>
+    </div>
+    
+    <div data-key="82" class = "darkness"> 
+      <kbd>r</kbd>
+      <span>Darkness</span>
+    </div>
+  </main>
+
+  <h2>Can you name the stories?</h2>
+  
+  <!-- Sound Files -->
+  <audio data-key="69" src="Assets/Bells.mp3"></audio>
+  <audio data-key="68" src="Assets/CrowsCawing.mp3"></audio>
+  <audio data-key="71" src="Assets/HeartbeatShort.mp3"></audio>
+  <audio data-key="65" src="Assets/Pendulum.mp3"></audio>
+  <audio data-key="82" src="Assets/DarknessThere.mp3"></audio>
+
+</body>
+
+</html>
